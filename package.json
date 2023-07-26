@@ -1,9 +1,13 @@
 {
   "name": "mini-coi",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A minimalistic version of coi-serviceworker",
   "main": "sw.js",
-  "keywords": ["mini", "coi", "coi-serviceworker"],
+  "keywords": [
+    "mini",
+    "coi",
+    "coi-serviceworker"
+  ],
   "author": "Andrea Giammarchi",
   "license": "MIT",
   "repository": {
