@@ -1,0 +1,17 @@
+{
+  "name": "mini-coi",
+  "version": "0.0.0",
+  "description": "A minimalistic version of coi-serviceworker",
+  "main": "sw.js",
+  "keywords": ["mini", "coi", "coi-serviceworker"],
+  "author": "Andrea Giammarchi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebReflection/mini-coi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WebReflection/mini-coi/issues"
+  },
+  "homepage": "https://github.com/WebReflection/mini-coi#readme"
+}
