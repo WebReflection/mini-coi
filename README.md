@@ -17,5 +17,5 @@ A minimalistic version of [coi-serviceworker](https://github.com/gzuidhof/coi-se
 
   * no options at all: "*it just works*" ™
   * always *require-corp* to have this working on Safari as well as Chrome or Firefox
-  * 30 LOC in total, not much else happening
+  * 25 LOC in total, not much else happening
   * errors are just thrown in devtools

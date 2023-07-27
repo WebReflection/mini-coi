@@ -2,7 +2,7 @@
   "name": "mini-coi",
   "version": "0.1.1",
   "description": "A minimalistic version of coi-serviceworker",
-  "main": "sw.js",
+  "main": "mini-coi.js",
   "keywords": [
     "mini",
     "coi",
