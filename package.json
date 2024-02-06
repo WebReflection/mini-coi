@@ -1,6 +1,6 @@
 {
   "name": "mini-coi",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A minimalistic version of coi-serviceworker",
   "main": "mini-coi.js",
   "bin": {
