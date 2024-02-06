@@ -3,6 +3,9 @@
   "version": "0.2.1",
   "description": "A minimalistic version of coi-serviceworker",
   "main": "mini-coi.js",
+  "bin": {
+    "mini-coi": "mini-cli.js"
+  },
   "keywords": [
     "mini",
     "coi",
@@ -17,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/WebReflection/mini-coi/issues"
   },
-  "homepage": "https://github.com/WebReflection/mini-coi#readme"
+  "homepage": "https://github.com/WebReflection/mini-coi#readme",
+  "dependencies": {
+    "static-handler": "^0.4.3"
+  }
 }
