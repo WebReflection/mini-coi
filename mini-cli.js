@@ -30,7 +30,7 @@ for (let i = 0; i < args.length; i++) {
 }
 
 spawn(
-  join(__dirname, 'node_modules', '.bin', 'static-handler'),
+  resolve(__dirname, '..', 'static-handler', 'static-handler.cjs'),
   ['--coi', ...args],
   {
     cwd,
