@@ -1,5 +1,22 @@
 # mini-coi
 
+This project ensures your browser's
+[complicated Cross Origin Isolation (COI) settings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer#security_requirements)
+"just work"&#8482; for web workers. This is especially useful when you have no
+control over the HTTP headers returned by the server.
+
+The simplest way to use mini-coi is to **place the `mini-coi.js` file in the
+root of your website (i.e. `/`), and reference it as the first child tag in the
+`<head>` of your HTML documents**:
+
+```html
+<script src="/mini-coi.js" scope="./"></script>
+```
+
+For more complete technical details, read on...
+
+## What is mini-coi?
+
 A minimalistic *CLI* utility or a simplified version of [coi-serviceworker](https://github.com/gzuidhof/coi-serviceworker), with an optional `scope` attribute to define where Cross Origin Isolation should happen.
 
 ## CLI
