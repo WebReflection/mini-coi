@@ -61,7 +61,7 @@ Allow headers in places like GitHub pages or any other server where you cannot c
 ### How to use mini-coi as Service Worker
 
   * the file **must be a local file**, you can't use any CDN or raw GitHub URL, you need to copy the file content locally [^1]
-  * the script *must not be a module*, it has to be exactly a `<script src="./mini-coi.js"></script>` at the top of your `<head>` tag in yout page (or in general before any other `script` or `link` or `style` is used, it can be after `meta` and `title` though)
+  * the script *must not be a module*, it has to be exactly a `<script src="./mini-coi.js"></script>` at the top of your `<head>` tag in your page (or in general before any other `script` or `link` or `style` is used, it can be after `meta` and `title` though)
 
 [^1]: You can either use the *CLI* utility:
 
