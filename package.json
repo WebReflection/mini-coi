@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/WebReflection/mini-coi#readme",
   "dependencies": {
-    "static-handler": "^0.5.1"
+    "static-handler": "^0.5.2"
   }
 }
